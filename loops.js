@@ -23,7 +23,11 @@ function doWhileLoop(array) {
 }
 
  do{
+<<<<<<< HEAD
     array.shift(1)
+=======
+    array.slice(1)
+>>>>>>> 16353264b40ba49467b2d3200472303ee20eb7a3
  } while (array.length > 0 && maybeTrue());
  
   return array;
